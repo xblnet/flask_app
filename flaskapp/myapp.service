@@ -1,0 +1,12 @@
+# Contents of /etc/systemd/system/myapp.service
+[Unit]
+Description=My_APP
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /PYTHON/website/main.py
+
+[Install]
+WantedBy=multi-user.target
