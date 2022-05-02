@@ -8,9 +8,11 @@ Programming the web application in Visual Studio Code IDE with Docker Desktop in
   1. git clone https://github.com/xblnet/flask_app    #copy the whole python app and yaml doc to the local server(Ubuntu)
   2. sudo apt-get install docker                      #install docker
   3. docker-compose up                                #download docker images from docker hub by yaml doc.
-  4. sudo docker images ls                            #show docker images
-  5. sudo ifconfig                                    #check the local ip
-  6. xxx.xxx.xxx.xxx                                  #check the webserver from the another PC in brownser.
+  4. sudo docker ps/stats                             #show the docker enables and usage of system for the services.
+  5. sudo docker images ls                            #show docker images
+  6. sudo ifconfig                                    #check the local ip
+  7. xxx.xxx.xxx.xxx                                  #check the webserver from the another PC in brownser.
+  8. others: git pull origin main #update github file if the code changed.
 
 *Prerequisite for Development(Windows):*
   1. Docker Desktop
