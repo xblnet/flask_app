@@ -5,9 +5,9 @@ The web application built on the a linux system with Nginx web proxy configued i
 Programming the web application in Visual Studio Code IDE with Docker Desktop installed in the Windows System.
 
 Deployment(Ubuntu):
-  1. git clone https://github.com/xblnet/flask_app    #copy the whole pythone and yaml doc to the local server(Ubuntu)
+  1. git clone https://github.com/xblnet/flask_app    #copy the whole python app and yaml doc to the local server(Ubuntu)
   2. sudo apt-get install docker                      #install docker
-  3. 
+  3. docker-compose up                                #download docker images from docker hub by yaml doc.
 
 Prerequisite for Development:
   1. Docker Desktop
