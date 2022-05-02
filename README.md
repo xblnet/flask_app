@@ -16,8 +16,8 @@ Programming the web application in Visual Studio Code IDE with Docker Desktop in
 
 *Prerequisite for Development(Windows):*
   1. Docker Desktop
-  2. Visual Studio Code
-  3. Windows Environment
+  2. Visual Studio Code(IDE)
+  3. Oracle VM VirtualBox Manager(testing)
 
 *Others:* 
   1. git pull origin main                             #update github file in server if the code changed.
