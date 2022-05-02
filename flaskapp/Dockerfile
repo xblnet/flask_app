@@ -1,8 +1,8 @@
 FROM python:3.7.2-stretch
 
-WORKDIR /flaskapp
+WORKDIR /python/flaskapp
 
-ADD . /flaskapp 
+ADD . /python/flaskapp 
 
 RUN pip install -r requirements.txt
 
