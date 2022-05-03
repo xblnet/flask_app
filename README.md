@@ -12,7 +12,6 @@ Programming the web application in Visual Studio Code IDE with Docker Desktop in
   5. sudo docker images ls                            #show docker images
   6. sudo ifconfig                                    #check the local ip
   7. xxx.xxx.xxx.xxx                                  #check the webserver from the another PC in brownser.
-  8. others: git pull origin main #update github file if the code changed.
 
 *Prerequisite for Development(Windows):*
   1. Docker Desktop
