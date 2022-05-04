@@ -19,7 +19,7 @@ Programming the web application in Visual Studio Code IDE with Docker Desktop in
   3. Oracle VM VirtualBox Manager(testing)
 
 *Others:* 
-  1. git pull origin main                             #update github file in server if the code changed.
+  1. git pull origin main                             #update github file from github if the code changed.
   2. docker-compose up --detach                       #run the docker images in the background, but the app will not store date in the database.
   3. docker build -t python .  					              #build docker with python program in development IDE, currenct directory match contain Dockerfile file.
   4. docker run -t python                             #run docker image with interactive mode.
