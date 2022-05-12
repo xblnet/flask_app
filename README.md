@@ -17,6 +17,11 @@ Prerequisite for Development(Windows):
   1. Docker Desktop
   2. Visual Studio Code(IDE)
   3. Oracle VM VirtualBox Manager(testing)
+  
+Development:
+  1.docker-compose up
+  2.docker tag
+  3.docker push
 
 Others:
   1. git pull origin main                             #update github file from github if the code changed.
