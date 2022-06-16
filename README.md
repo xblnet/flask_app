@@ -38,4 +38,4 @@ Others:
       docker push xblcn/python                        #push image to docker hub
 ```
 
-website: phay.me
+website: [phay.me](http://phay.me)
