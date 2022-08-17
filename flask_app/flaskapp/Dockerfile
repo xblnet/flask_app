@@ -1,4 +1,4 @@
-FROM python:3.7.2-stretch
+FROM --platform=linux/arm/v7 python:3.7.2-stretch
 
 WORKDIR /Docker/flaskapp
 
